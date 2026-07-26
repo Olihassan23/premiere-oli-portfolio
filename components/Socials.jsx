@@ -7,6 +7,7 @@ import {
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiWhatsappLine,
 } from "react-icons/ri";
 
 export const socialData = [
@@ -36,10 +37,10 @@ export const socialData = [
     Icon: RiPinterestLine,
   },
   {
-    name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
-    Icon: RiGithubLine,
-  },
+  name: "WhatsApp",
+  link: "https://wa.me/8801923599289",
+  Icon: RiWhatsappLine,
+},
 ];
 
 const Socials = () => {
@@ -53,7 +54,7 @@ const Socials = () => {
           target="_blank"
           rel="noreferrer noopener"
           className={`${
-            social.name === "Github"
+            social.name === "WhatsApp"
               ? "bg-accent rounded-full p-[5px] hover:text-white"
               : "hover:text-accent"
           } transition-all duration-300`}
