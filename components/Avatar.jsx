@@ -1,0 +1,17 @@
+import Image from "next/image";
+
+const Avatar = () => {
+  return (
+    <div className="hidden xl:flex absolute right-20 bottom-10 pointer-events-none select-none">
+      <Image
+        src="/avatar.png"
+        alt="avatar"
+        width={737}
+        height={678}
+        className="w-[450px] h-auto"
+      />
+    </div>
+  );
+};
+
+export default Avatar;
