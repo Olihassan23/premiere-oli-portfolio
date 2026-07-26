@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 
+import BackgroundMusic from "../components/BackgroundMusic";
 import Layout from "../components/Layout";
 import Transition from "../components/Transition";
 
@@ -11,6 +12,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
+      <BackgroundMusic />
+
       <AnimatePresence mode="wait">
         <motion.div key={router.route} className="h-full">
           <Transition />
