@@ -49,3 +49,25 @@
     @apply w-full h-[180px] p-6 rounded-lg resize-none;
   }
 }
+/* Floating Music Button */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+    box-shadow: 0 0 15px rgba(147, 51, 234, 0.25);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(147, 51, 234, 0.5);
+  }
+
+  100% {
+    transform: translateY(0px);
+    box-shadow: 0 0 15px rgba(147, 51, 234, 0.25);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
