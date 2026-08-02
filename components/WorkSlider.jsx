@@ -24,12 +24,36 @@ const workSlides = {
         },
         {
           title: "Project 3",
-          path: "/thumb3.jpg",
-          link: "http://example.com",
+          path: "/Smooth 3D motion.png",
+          link: "https://drive.google.com/file/d/1KkeLLIkS93WRVsEf16XQWvvzQxrZpz2d/view?usp=sharing",
         },
         {
           title: "Project 4",
+          path: "/samsung.png",
+          link: "https://drive.google.com/file/d/1BoqaBnejbKiwFYRXdGblNLhAmMQXhEBM/view?usp=sharing",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
           path: "/thumb4.jpg",
+          link: "http://example.com",
+        },
+        {
+          title: "title",
+          path: "/thumb1.jpg",
+          link: "http://example.com",
+        },
+        {
+          title: "title",
+          path: "/thumb2.jpg",
+          link: "http://example.com",
+        },
+        {
+          title: "title",
+          path: "/thumb3.jpg",
           link: "http://example.com",
         },
       ],

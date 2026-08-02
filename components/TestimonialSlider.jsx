@@ -9,26 +9,26 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    image: "/avatar.png.png",
+    name: "Sam Alex",
+    position: "YouTube Channel Owner",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Reduan delivered an outstanding documentary edit with cinematic pacing, clean motion graphics, and excellent storytelling. Highly recommended!"
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    image: "/avatar.png.png",
+    name: "Jabbar Ahmed",
+    position: "Content Creator",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Professional communication and fast delivery. The editing quality exceeded my expectations and helped improve audience retention."
   },
   {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    image: "/avatar.png.png",
+    name: "Saikat Khan",
+    position: "Business Owner",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
-  },
+      "Amazing attention to detail, smooth transitions, and perfect sound design. I will definitely work with him again."
+  }
 ];
 
 const TestimonialSlider = () => {
@@ -51,8 +51,8 @@ const TestimonialSlider = () => {
                 <div className="mb-2 mx-auto">
                   <Image
                     src={person.image}
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     alt={person.name}
                   />
                 </div>
