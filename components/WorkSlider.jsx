@@ -18,17 +18,17 @@ const workSlides = {
           link: "https://drive.google.com/file/d/1avChPIvywvPrkYPE_QvyC9yZgZEnfLlH/view?usp=sharing",
         },
         {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "http://example.com",
+          title: "Project 2",
+          path: "/Screenshot_1.png",
+          link: "https://drive.google.com/file/d/1UzFzwl97xM9VkakukMJM_FrMGG8HvA_3/view?usp=sharing",
         },
         {
-          title: "title",
+          title: "Project 3",
           path: "/thumb3.jpg",
           link: "http://example.com",
         },
         {
-          title: "title",
+          title: "Project 4",
           path: "/thumb4.jpg",
           link: "http://example.com",
         },
