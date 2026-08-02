@@ -6,9 +6,9 @@ const Avatar = () => {
       <Image
         src="/avatar.png"
         alt="avatar"
-        width={737}
-        height={678}
-        className="w-[450px] h-auto"
+        width={1000}
+        height={1000}
+        className="w-[700px] h-auto"
       />
     </div>
   );
